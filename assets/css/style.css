@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.bg-img {
+    background-image: url(/assets/images/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    right: 0;
+    top: 0;
+
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    top: 20px;
+}
+
+.max-w-1320 {
+    max-width: 1320px;
+}
+
+.navlinks {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navlinks:hover {
+    text-decoration: underline;
+}
+
+.gap-28 {
+    gap: 28px;
+}
+
+.ml-150 {
+    margin-left: 150px;
+}
+
+.btn {
+    background: #FF0000;
+    padding: 16px 20px;
+    border-radius: 56px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.btn-2:hover {
+    background-color: #141414;
+    opacity: 70%;
+}
+
+.max-w-830 {
+    max-width: 830px;
+}
+
+.heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80.64px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.para {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.btn-2 {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    padding: 20px 32px;
+    border-radius: 56px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.max-w-700 {
+    margin-top: 60px;
+    max-width: 700px;
+}
+
+.btn-3 {
+    border-radius: 24px;
+    border: none;
+    width: 229.17px;
+    margin-bottom: 20px;
+}
+
+.max-w-120 {
+    max-width: 120px;
+    height: 65.67px;
+    margin-bottom: 10px;
+    top: 8.33px;
+}
+
+.google {
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #141414;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.top-18 {
+    top: 18px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.google {
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #000000;
+}
+
+.sub-heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 70.56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.card {
+    box-shadow: 0px 0px 12px 3px #B6B6B640;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 24px;
+    /* width: 364px; */
+    margin-bottom: 20px;
+}
+
+.house-name {
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.4px;
+    text-align: left;
+    color: #000000;
+}
+
+.learn {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    text-align: left;
+    color: #FF0000;
+}
+
+.para-2 {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #000000;
+}
+
+.font-size {
+    font-size: 18px;
+}
+
+.red-box {
+    width: 300px;
+    height: 396px;
+    border-radius: 24px;
+    z-index: -1;
+    margin-top: 220px;
+    background-color: #FF0000;
+}
+
+.house {
+    margin-left: 40px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.mt-160 {
+    margin-top: 160px;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.star-box {
+    width: 62px;
+    height: 62px;
+    gap: 0px;
+    border-radius: 10px;
+    background: #B400011A;
+}
+
+.card-1 {
+    width: (592px);
+    height: (128px);
+    padding: 16px;
+    gap: 20px;
+    border-radius: 24px;
+    box-shadow: 0px 1px 28px 1px #4747471A;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.card-heading {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #000000;
+}
+
+.view {
+    background-color: #FFFFFF;
+    color: #FF0000;
+    border: 1px solid #FF0000;
+}
+
+.bg-color {
+    background: #FFEBEB;
+}
+
+.max-w-452 {
+    max-width: 452px;
+}
+
+.max-w-370 {
+    max-width: 370px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.house-1 {
+    margin-left: 80px;
+}
+
+.max-w-508 {
+    max-width: 508px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+/* 
+nav {
+    position: sticky;
+    top: 0;
+} */
+
+@media(max-width:1200px) {
+    .ml-150 {
+        margin-left: 80px;
+    }
+}
+
+/* nesting */
+@media (max-width:991.98px) {
+
+    .menu-list {
+        flex-direction: column;
+        position: fixed;
+        justify-content: center;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        background-color: lightcoral;
+        transition: right 200ms linear;
+
+        ul {
+            flex-direction: column;
+        }
+    }
+
+    .menu-list.show {
+        right: 0;
+    }
+
+    .menu-icon {
+        display: flex;
+        width: 40px;
+        height: 30px;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 1;
+
+        span {
+            width: 100%;
+            height: 5px;
+            background-color: black;
+            border-radius: 4px;
+            transition: all 200ms linear;
+        }
+    }
+
+    .menu-icon.active span:first-of-type {
+        transform: rotate(38deg);
+        transform-origin: left;
+    }
+
+    .menu-icon.active span:nth-child(2) {
+        height: 0;
+    }
+
+    .menu-icon.active span:last-of-type {
+        transform: rotate(-38deg);
+        transform-origin: left;
+    }
+}
+
+@media(max-width:767.98px) {
+    .red-box {
+        margin-top: 200px;
+    }
+
+}
+
+@media(max-width:575.98px) {
+    .house {
+        margin-left: 5px;
+        width: 100%;
+    }
+        .house-1 {
+            margin-left: 10px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+    .red-box {
+display: none;    }
+
+    .sub-heading {
+        padding-top: 30px;
+    }
+}
