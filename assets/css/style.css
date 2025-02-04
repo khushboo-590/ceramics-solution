@@ -62,7 +62,7 @@
     margin-right: 20px;
 }
 
-.btn-2:hover {
+.btn-2,.button:hover {
     background-color: #141414;
     opacity: 70%;
 }
@@ -334,6 +334,64 @@
     padding-top: 30px;
 }
 
+.overflow-color {
+    background: #FF0000BF;
+    top: 0px;
+    position: absolute;
+    width: 1140px;
+    height: 447px;
+    border-radius: 24px;
+
+
+}
+
+.img {
+    overflow: hidden;
+    border-radius: 24px;
+    width: 1140px;
+    height: 447px;
+}
+
+.main-heading {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 70.56px;
+    text-align: center;
+    font-style: normal;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+
+}
+
+.paragraph {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 20px;
+}
+
+.button {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.68px;
+    text-align: left;
+    border: 1px;
+    border-radius: 56px;
+    background: white;
+    color: #FF0000BF;
+    position: absolute;
+    padding: 20px 32px 20px 32px;
+    bottom: 80px;
+
+}
+
 /* 
 nav {
     position: sticky;
@@ -400,11 +458,36 @@ nav {
         transform: rotate(-38deg);
         transform-origin: left;
     }
+
+    .img {
+        max-width: 900px;
+        height: 500px
+    }
+
+    .overflow-color {
+        max-width: 900px;
+        height: 500px
+    }
 }
 
 @media(max-width:767.98px) {
     .red-box {
         margin-top: 200px;
+    }
+
+    .img {
+        max-width: 500px;
+        height: 600px;
+
+    }
+
+    .overflow-color {
+        max-width: 500px;
+        height: 600px;
+    }
+
+    .button {
+        bottom: 100px;
     }
 
 }
@@ -414,16 +497,33 @@ nav {
         margin-left: 5px;
         width: 100%;
     }
-        .house-1 {
-            margin-left: 10px;
-            width: 100%;
-            margin-top: 20px;
-        }
+
+    .house-1 {
+        margin-left: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
 
     .red-box {
-display: none;    }
+        display: none;
+    }
 
     .sub-heading {
         padding-top: 30px;
+    }
+
+    .img {
+        max-width: 400px;
+        height: 550px;
+
+    }
+
+    .overflow-color {
+        max-width: 400px;
+        height: 550px;
+    }
+
+    .paragraph {
+        padding-top: 60px;
     }
 }
