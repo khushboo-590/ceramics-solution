@@ -86,9 +86,10 @@
     font-weight: 400;
     line-height: 28.8px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #FFFFFF;
+}
+.color-black{
+    color: #000000;
 }
 
 .btn-2 {
@@ -202,7 +203,9 @@
 
     color: #000000;
 }
-
+.text-left{
+    text-align: left;
+}
 .pt-70 {
     padding-top: 70px;
 }
@@ -215,7 +218,9 @@
     /* width: 364px; */
     margin-bottom: 20px;
 }
-
+.border{
+    border: none;
+}
 .house-name {
     font-family: Plus Jakarta Sans;
     font-size: 24px;
@@ -397,7 +402,19 @@
 .text-center{
     text-align:  center;
 }
+.max-w-761{
+    max-width: 761px;
+}
+.max-w-912{
+max-width: 912px;  
 
+}
+.max-w-872{
+    max-width: 872px;
+}
+.max-w-589{
+    max-width: 589px;
+}
 /* 
 nav {
     position: sticky;
