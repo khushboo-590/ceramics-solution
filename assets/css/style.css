@@ -27,7 +27,7 @@
 }
 
 .navlinks {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 25.6px;
@@ -48,12 +48,15 @@
     margin-left: 150px;
 }
 
+.pt-20 {
+    padding-top: 20px;
+}
+
 .btn {
     background: #FF0000;
     padding: 16px 20px;
     border-radius: 56px;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700;
     line-height: 20.16px;
     text-align: left;
@@ -62,18 +65,15 @@
     margin-right: 20px;
 }
 
-.btn-2,
-.button:hover {
-    background-color: #141414;
-    opacity: 70%;
-}
+
+
 
 .max-w-830 {
     max-width: 830px;
 }
 
 .heading {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 64px;
     font-weight: 600;
     line-height: 80.64px;
@@ -82,7 +82,7 @@
 }
 
 .para {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28.8px;
@@ -95,7 +95,7 @@
 }
 
 .btn-2 {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 22.68px;
@@ -105,6 +105,14 @@
     background-color: #FF0000;
     color: #FFFFFF;
     border: none;
+}
+
+.btn-2:hover {
+    color: #141414;
+}
+
+.button:hover {
+    color: #141414;
 }
 
 .mt-80 {
@@ -199,7 +207,7 @@
 }
 
 .sub-heading {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 56px;
     font-weight: 600;
     line-height: 70.56px;
@@ -221,15 +229,20 @@
     background: #FFFFFF;
     border-radius: 24px;
     padding: 24px;
-    /* width: 364px; */
     margin-bottom: 20px;
 
 }
 
-/* .border{
-    box-shadow: 0px 2px 44px 3px #5757571A;} */
+.border {
+    border: 1px solid grey;
+}
+
+.card {
+    border: unset;
+}
+
 .house-name {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 38.4px;
@@ -238,7 +251,7 @@
 }
 
 .learn {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 25.6px;
@@ -247,7 +260,7 @@
 }
 
 .para-2 {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 25.6px;
@@ -264,12 +277,16 @@
     height: 396px;
     border-radius: 24px;
     z-index: -1;
-    margin-top: 220px;
+    margin-top: 240px;
     background-color: #FF0000;
 }
 
 .house {
     margin-left: 40px;
+}
+
+.mt-80 {
+    margin-top: 80px;
 }
 
 .text-left {
@@ -304,7 +321,7 @@
 }
 
 .card-heading {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 32px;
@@ -335,7 +352,7 @@
 }
 
 .house-1 {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .max-w-508 {
@@ -350,8 +367,8 @@
     background: #FF0000BF;
     top: 0px;
     position: absolute;
-width: 100%;  
-  height: 447px;
+    width: 100%;
+    height: 447px;
     border-radius: 24px;
 
 
@@ -360,8 +377,8 @@ width: 100%;
 .img {
     overflow: hidden;
     border-radius: 24px;
-width: 100%;  
-  height: 447px;
+    width: 100%;
+    height: 447px;
 }
 
 .main-heading {
@@ -442,7 +459,7 @@ width: 100%;
 }
 
 input[type="email"] {
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -451,17 +468,15 @@ input[type="email"] {
     border: 1px solid #00000026;
     box-shadow: -13.01px 13.01px 104.09px 0px #A1A1A11A;
     border-radius: 62px;
-    padding: 24px 100px 24px 25px;
+    padding: 20px 20px 20px 10px;
     position: absolute;
     max-width: 340px;
     margin-top: 10px;
-
-
 }
 
 .right-0 {
-    margin-left: 50%;
-    margin-top: 22px;
+    margin-left: 21%;
+    margin-top: 17px;
 }
 
 .max-w-340 {
@@ -478,19 +493,53 @@ input[type="email"] {
     gap: 20px;
 }
 
-/* 
-nav {
-    position: sticky;
-    top: 0;
-} */
+.pl-10 {
+    padding-left: 10px;
+}
+
+.scale:hover {
+    transform: scale(1.3);
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid gray;
+
+
+}
+.max-w-674{
+    max-width: 674px;
+}
+.max-w-168{
+    max-width: 168px;
+}
+.line-height{
+    line-height: 25.4px;
+}
+ .slick-silder{
+    gap: 10px;
+}
+
 
 @media(max-width:1200px) {
     .ml-150 {
         margin-left: 80px;
+
+    }
+
+    .gap-28 {
+        gap: 10px;
+    }
+
+    .house-1 {
+        margin-left: 30px;
     }
 }
 
-/* nesting */
 @media (max-width:991.98px) {
 
     .menu-list {
@@ -563,14 +612,35 @@ nav {
 
     .education-img {
         margin-top: 200px;
-    margin-right: 300px;
-    position: absolute;
+        margin-right: 300px;
+        position: absolute;
 
     }
-                .heading {
-                    font-size: 52px;
-                    line-height: 70.64px;
-                }
+
+    .heading {
+        font-size: 52px;
+        line-height: 70.64px;
+    }
+
+    .red-box {
+        display: none;
+    }
+
+    .house {
+        margin-left: 5px;
+        width: 100%;
+    }
+
+    .house-1 {
+        margin-left: 5px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+         .ml-150 {
+             margin-left: 0px;
+    
+         }
 }
 
 
@@ -600,18 +670,22 @@ nav {
         height: 300px;
 
     }
-    .main-heading{
+
+    .main-heading {
         font-size: 48px;
-            line-height: 60.56px;
+        line-height: 60.56px;
     }
-    .heading{
-font-size: 40px;
-    line-height: 60.64px;
+
+    .heading {
+        font-size: 40px;
+        line-height: 60.64px;
     }
-    .text{
+
+    .text {
         text-align: center;
     }
-    .text-1{
+
+    .text-1 {
         align-items: center;
     }
 
@@ -619,20 +693,8 @@ font-size: 40px;
 }
 
 @media(max-width:575.98px) {
-    .house {
-        margin-left: 5px;
-        width: 100%;
-    }
 
-    .house-1 {
-        margin-left: 10px;
-        width: 100%;
-        margin-top: 20px;
-    }
 
-    .red-box {
-        display: none;
-    }
 
     .sub-heading {
         padding-top: 30px;
@@ -658,30 +720,40 @@ font-size: 40px;
         justify-content: none;
         gap: 20px;
     }
-         .max-w-700 {
-             margin-top: 0px;
-             width: 180px;
-             height: 500px;
-    
-         }
-        .education-img {
-            margin-top: 400px;
-            margin-right: 270px;
-            position: absolute;
-    
-        }
-    .responsive{
-        margin-top: 200px;
+
+    .max-w-700 {
+        margin-top: 0px;
+        width: 250px;
+        height: 500px;
+
+    }
+
+    .education-img {
+        margin-top: 150px;
+        margin-right: 270px;
+        position: absolute;
+
+    }
+
+    .responsive {
+        top: 150px;
         margin-right: 250px;
         position: absolute;
     }
-         .main-heading {
-            font-size: 38px;
-                line-height: 50.56px;
-                
-         }
-         .space{
-            margin-top: 50px;
-         }
-        
+
+    .responsive-1 {
+        position: absolute;
+        top: 40px;
+    }
+
+    .main-heading {
+        font-size: 38px;
+        line-height: 50.56px;
+
+    }
+
+    .space {
+        margin-top: 50px;
+    }
+
 }

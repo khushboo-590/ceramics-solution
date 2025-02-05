@@ -4,7 +4,7 @@ $(document).ready(function () {
         infinite: true,
         // speed: 50,
         slidesToShow: 3,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
           
