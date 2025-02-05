@@ -493,6 +493,7 @@ input[type="email"] {
     gap: 20px;
 }
 
+
 .pl-10 {
     padding-left: 10px;
 }
@@ -511,17 +512,29 @@ input[type="email"] {
 
 
 }
-.max-w-674{
+
+.max-w-674 {
     max-width: 674px;
 }
-.max-w-168{
+
+.max-w-168 {
     max-width: 168px;
 }
-.line-height{
+
+.line-height {
     line-height: 25.4px;
 }
- .slick-silder{
+
+.slick-silder {
     gap: 10px;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-prev {
+    display: unset;
 }
 
 
@@ -637,10 +650,11 @@ input[type="email"] {
         margin-top: 20px;
         margin-bottom: 30px;
     }
-         .ml-150 {
-             margin-left: 0px;
-    
-         }
+
+    .ml-150 {
+        margin-left: 0px;
+
+    }
 }
 
 
@@ -689,6 +703,10 @@ input[type="email"] {
         align-items: center;
     }
 
+    .none {
+        position: absolute;
+        margin-top: 100px;
+    }
 
 }
 
