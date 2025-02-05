@@ -707,6 +707,9 @@ input[type="email"] {
         position: absolute;
         margin-top: 110px;
     }
+         .my-file {
+             margin-top: 100px;
+         }
 
 }
 

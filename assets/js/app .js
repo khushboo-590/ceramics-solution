@@ -9,7 +9,7 @@ $(document).ready(function () {
         responsive: [
           
             {
-                breakpoint: 768,
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
                 },
