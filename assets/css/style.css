@@ -113,14 +113,16 @@
 
 .max-w-700 {
     margin-top: 60px;
-    max-width: 700px;
+    width: 700px;
 }
 
-.btn-3 {
+.card-3 {
     border-radius: 24px;
     border: none;
+    padding: 10px;
     width: 229.17px;
     margin-bottom: 20px;
+    background-color: #FFFFFF;
 }
 
 .max-w-120 {
@@ -348,8 +350,8 @@
     background: #FF0000BF;
     top: 0px;
     position: absolute;
-    width: 1140px;
-    height: 447px;
+width: 100%;  
+  height: 447px;
     border-radius: 24px;
 
 
@@ -358,8 +360,8 @@
 .img {
     overflow: hidden;
     border-radius: 24px;
-    width: 1140px;
-    height: 447px;
+width: 100%;  
+  height: 447px;
 }
 
 .main-heading {
@@ -439,7 +441,7 @@
     padding-bottom: 10px;
 }
 
-input [type="email"] [id="email"]{
+input[type="email"] {
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 400;
@@ -449,7 +451,31 @@ input [type="email"] [id="email"]{
     border: 1px solid #00000026;
     box-shadow: -13.01px 13.01px 104.09px 0px #A1A1A11A;
     border-radius: 62px;
-    padding: 24px;
+    padding: 24px 100px 24px 25px;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 10px;
+
+
+}
+
+.right-0 {
+    margin-left: 50%;
+    margin-top: 22px;
+}
+
+.max-w-340 {
+    max-width: 340px;
+}
+
+.search {
+    padding: 15px 40px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 /* 
@@ -528,7 +554,25 @@ nav {
         max-width: 900px;
         height: 500px
     }
+
+    .max-w-700 {
+        margin-top: 30px;
+        width: 600px;
+        height: 500px;
+    }
+
+    .education-img {
+        margin-top: 200px;
+    margin-right: 300px;
+    position: absolute;
+
+    }
+                .heading {
+                    font-size: 52px;
+                    line-height: 70.64px;
+                }
 }
+
 
 @media(max-width:767.98px) {
     .red-box {
@@ -549,6 +593,28 @@ nav {
     .button {
         bottom: 100px;
     }
+
+    .max-w-700 {
+        margin-top: 10px;
+        width: 400px;
+        height: 300px;
+
+    }
+    .main-heading{
+        font-size: 48px;
+            line-height: 60.56px;
+    }
+    .heading{
+font-size: 40px;
+    line-height: 60.64px;
+    }
+    .text{
+        text-align: center;
+    }
+    .text-1{
+        align-items: center;
+    }
+
 
 }
 
@@ -586,4 +652,36 @@ nav {
     .paragraph {
         padding-top: 60px;
     }
+
+    .display {
+        display: none;
+        justify-content: none;
+        gap: 20px;
+    }
+         .max-w-700 {
+             margin-top: 0px;
+             width: 180px;
+             height: 500px;
+    
+         }
+        .education-img {
+            margin-top: 400px;
+            margin-right: 270px;
+            position: absolute;
+    
+        }
+    .responsive{
+        margin-top: 200px;
+        margin-right: 250px;
+        position: absolute;
+    }
+         .main-heading {
+            font-size: 38px;
+                line-height: 50.56px;
+                
+         }
+         .space{
+            margin-top: 50px;
+         }
+        
 }
