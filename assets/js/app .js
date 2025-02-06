@@ -2,8 +2,8 @@ $(document).ready(function () {
     $('.my-file').slick({
         dots: true,
         infinite: true,
-        // speed: 50,
-        slidesToShow: 3,
+        // speed: 250,
+        slidesToShow: 4,
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
@@ -11,7 +11,7 @@ $(document).ready(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 },
             },
             {
