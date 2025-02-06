@@ -7,11 +7,11 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
-          
+
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 },
             },
             {
@@ -33,3 +33,4 @@ menuIcon.addEventListener("click", () => {
     let activeNav = menuList.hasAttribute("class", "show");
     if (activeNav) { menuIcon.classList.toggle("active") };
 })
+

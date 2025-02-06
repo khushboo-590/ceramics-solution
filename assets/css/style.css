@@ -108,11 +108,12 @@
 }
 
 .btn-2:hover {
-    color: #141414;
+    background-color: #FFEBEB;
 }
 
 .button:hover {
-    color: #141414;
+    background-color: #FFEBEB;
+    opacity: 30%;
 }
 
 .mt-80 {
@@ -293,8 +294,8 @@
     text-align: left;
 }
 
-.mt-160 {
-    margin-top: 160px;
+.mt-190 {
+    margin-top: 190px;
 }
 
 .z-1 {
@@ -468,14 +469,14 @@ input[type="email"] {
     border: 1px solid #00000026;
     box-shadow: -13.01px 13.01px 104.09px 0px #A1A1A11A;
     border-radius: 62px;
-    padding: 20px 20px 20px 10px;
+    padding: 20px 80px 20px 10px;
     position: absolute;
     max-width: 340px;
     margin-top: 10px;
 }
 
 .right-0 {
-    margin-left: 21%;
+    margin-left: 44%;
     margin-top: 17px;
 }
 
@@ -509,6 +510,8 @@ input[type="email"] {
 .line {
     width: 100%;
     border: 1px solid gray;
+    opacity: 20%;
+
 
 
 }
@@ -527,7 +530,8 @@ input[type="email"] {
 
 .my-file .slick-track {
     display: flex;
-    gap: 20px;}
+    gap: 20px;
+}
 
 .slick-next {
     right: 0;
@@ -535,6 +539,14 @@ input[type="email"] {
 
 .slick-prev {
     display: unset;
+}
+
+.max-w-912 {
+    max-width: 912px;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 
@@ -707,9 +719,10 @@ input[type="email"] {
         position: absolute;
         margin-top: 110px;
     }
-         .my-file {
-             margin-top: 100px;
-         }
+
+    .my-file {
+        margin-top: 100px;
+    }
 
 }
 
@@ -776,7 +789,8 @@ input[type="email"] {
     .space {
         margin-top: 50px;
     }
-    .my-file{
+
+    .my-file {
         margin-top: 120px;
     }
 
